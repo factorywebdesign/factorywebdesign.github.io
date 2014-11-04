@@ -1,6 +1,3 @@
 factorywebdesign.github.io
 ==========================
 Iniciando...
-
-
-...
