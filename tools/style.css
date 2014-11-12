@@ -219,3 +219,9 @@ h1 {
     color: #00aeef;
     font-size: 5em;
 }
+
+#construcao img{
+    opacity: 1;
+    height: 200px;
+    margin: -70px auto;
+}
