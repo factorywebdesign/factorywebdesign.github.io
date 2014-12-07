@@ -1762,13 +1762,14 @@ textarea {
 
 .contact-anchor {
     display: block;
-    margin-left: 18%;
+    margin-left:33%;
 }
 
 .orcamento-slice {
     display: block;
     background: white;
     margin: 8px -15px;
+    box-shadow: 0px 0px 5px rgba(1,1,1,.1);
 }
 
 .contact-numbers >h5,
@@ -1781,3 +1782,13 @@ textarea {
 }
 
 
+
+.btn-social {
+    border-radius: 0px;
+    border: none;
+}
+
+.label-social{
+    width:150px;
+    text-align: center;
+}
