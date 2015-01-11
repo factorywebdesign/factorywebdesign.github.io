@@ -164,14 +164,14 @@ body{font-family: "Roboto", sans-serif; background: white;}
 .caption h3{
     font-size: 1.2em;
     font-weight: 500px;
-    color: black;
+    color: #00aeef;
 }
 
 .caption h3:hover:before p{
-     opacity: 0;   
+     opacity: 0;
 }
 .caption h3:hover:after p{
-     opacity: 1;   
+     opacity: 1;
 }
 
 /* MENU SHADOW */
@@ -222,6 +222,11 @@ body{font-family: "Roboto", sans-serif; background: white;}
 
 
 /* ORÇAMENTO SPACE STYLE*/
+.orcamento{
+		display: block;
+		margin-top:100px;
+		background: url(../imgs/bg-orc.png) no-repeat;
+}
 
 .orcamento-style{
 	text-align: right;
@@ -230,7 +235,8 @@ body{font-family: "Roboto", sans-serif; background: white;}
 
 .orcamento-style h1{
 	font-family: "Roboto", sans-serif;
-	font-size: 2em;
+	color: #c3c3c3;
+	font-size: 5em;
 	margin-bottom: 0;
 }
 
@@ -242,8 +248,9 @@ body{font-family: "Roboto", sans-serif; background: white;}
 
 /* Botão Login */
 .button-timeline, .button-orc{
+	left:105px;
+	top:127px;
 	padding: 10px 20px;
-	margin: 0 -5.5px;
 	text-align: center;
 	position: relative;
 }
@@ -322,18 +329,16 @@ body{font-family: "Roboto", sans-serif; background: white;}
 }
 
 #show-serv, .thumbnail, .caption{
- 
+
 }
 
 .caption p{
     font-family: "Roboto", sans-serif;
-    font-size: 0.85em;
-    text-align: center;
+    font-size: .95em;
 }
 
 .caption{
     width: 200px;
-    margin-left:;
 }
 
 #show-serv{
@@ -452,7 +457,7 @@ body{font-family: "Roboto", sans-serif; background: white;}
 
 }
 
-.nav-tabs > .active > a, .nav-tabs > .active > a:hover{ 
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover{
 	outline: 0;
 	color: #555555;
 	background-color: #ffffff;
@@ -474,7 +479,7 @@ body{font-family: "Roboto", sans-serif; background: white;}
 	margin-bottom: 50px;
 }
 
-/* ORCAMENTO MODAL STYLE 
+/* ORCAMENTO MODAL STYLE
 
 .orcamento-modal-body{
 	background-color: #141414;
@@ -502,11 +507,12 @@ body{font-family: "Roboto", sans-serif; background: white;}
 /* SOBRE NÓS */
 
 .sobre-nos{
-    padding-top: 40px;
+    margin-top: -40px;
 }
 
 .sobre-nos h1{
-	color: #00aeef;
+	padding-top: 40px;
+	color: white;
 }
 
 .sobre-nos h2{
@@ -603,7 +609,7 @@ body{font-family: "Roboto", sans-serif; background: white;}
 
 .group-addon-contact{
  	background-color: #00aeef;
-	border: none;   
+	border: none;
 }
 
 .form-control{
@@ -814,7 +820,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .circle:hover:after {
 	box-shadow: inset 0.36em 0 0 #00baff,
 				inset 0 0.36em 0 #00aeef,
-				inset -0.36em 0 0 #0091c7,	
+				inset -0.36em 0 0 #0091c7,
 				inset 0 -0.36em 0 #007dab;
 }
 
@@ -830,7 +836,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .circle-yellow:hover:after {
 	box-shadow: inset 0.36em 0 0 #f6ff00,
 				inset 0 0.36em 0 #e7ef00,
-				inset -0.36em 0 0 #b6bd00,	
+				inset -0.36em 0 0 #b6bd00,
 				inset 0 -0.36em 0 #939800;
 }
 
@@ -855,7 +861,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .circle-red:hover:after {
 	box-shadow: inset 0.36em 0 0 #ff0000,
 				inset 0 0.36em 0 #ef0000,
-				inset -0.36em 0 0 #bd0000,	
+				inset -0.36em 0 0 #bd0000,
 				inset 0 -0.36em 0 #9f0000;
 }
 
@@ -863,7 +869,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 .circle-black:hover:after {
 	box-shadow: inset 0.4em 0 0 #00aeef,
 				inset 0 0.4em 0 #00aeef,
-				inset -0.4em 0 0 #00aeef,	
+				inset -0.4em 0 0 #00aeef,
 				inset 0 -0.4em 0 #00aeef;
 }
 
@@ -921,7 +927,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .softwares {
-    
+
 }
 
 .propaganda > img{
@@ -932,7 +938,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 .propaganda > h5{
     position: relative;
-    font-size: 2.5em;    
+    font-size: 2.5em;
     text-align: center;
     color: white;
     margin: 120px 0 -170px 0;
@@ -940,7 +946,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 
 .propaganda > h4{
     position: relative;
-    font-size: 1.5em;    
+    font-size: 1.5em;
     font-family: "txt-caviar", sans-serif;
     text-align: center;
     color: #00aeef;
@@ -951,7 +957,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
     margin-top: 20px;
     height: 250px;
     background: #00bfff;
-    
+
 }
 
 .staff > h4{
@@ -1012,7 +1018,7 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 }
 
 .edit-transition{
-    
+
       -webkit-transition: all 5s ease;
 -moz-transition: all 5s ease;
 -ms-transition: all 5s ease;
@@ -1020,28 +1026,28 @@ legend, fieldset, .modal-footer, .modal-header, .formgroup{
 transition: all 5s ease;
 }
 .staff-stl {
-    
+
 }
 
 .staff-stl h3{
     color: #141414;
-    font-size: 1.3em; 
+    font-size: 1.3em;
     margin: 0 0 20px 0;
 }
 
 .item > h4{
     color:00afff;
-    
+
 }
 
 .staff-name {
-    color: #00afff;
+    color: white;
 }
 
-    
+
 .staff-stl > strong{
     font-size: 4.5em;
-    color: #00afff;
+    color: white;
 }
 
 .stepwizard-step p {
@@ -1089,7 +1095,7 @@ transition: all 5s ease;
     font-size: 12px;
     line-height: 1.428571429;
     border-radius: 15px;
-    margin: 0px -4px 0 0; 
+    margin: 0px -4px 0 0;
 }
 
 
@@ -1171,7 +1177,7 @@ transition: all 5s ease;
     border: 2px solid #F2F2F2; border-radius: 0px;
     position: absolute; top: 0; bottom: 0; right: 48px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -1179,18 +1185,18 @@ transition: all 5s ease;
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
 }
-	
+
 .price {
   font-size: 2.5em;
 }
- 
+
 .price-cents {
   vertical-align: super;
   font-size: 35%;
 }
- 
+
 .price-month {
   font-size:29%;
   font-style: italic;
@@ -1211,7 +1217,7 @@ transition: all 5s ease;
 }
 
 .panel-warning > .panel-heading{
-    background: #f2f2f2;  
+    background: #f2f2f2;
     color: #00afff;
     border-bottom: solid 1px #dddddd;
 }
@@ -1225,12 +1231,12 @@ transition: all 5s ease;
     border: solid 4px #f2f2f2;
     border-radius: 0px;
     background:#f2f2f2;
-    -webkit-transition-property : scale; 
-    -webkit-transition-duration : 0.2s; 
-    -webkit-transition-timing-function : ease-in-out; 
-    -moz-transition : all 0.2s ease-in-out;  
+    -webkit-transition-property : scale;
+    -webkit-transition-duration : 0.2s;
+    -webkit-transition-timing-function : ease-in-out;
+    -moz-transition : all 0.2s ease-in-out;
 }
- 
+
 .panel-host:hover {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
@@ -1250,11 +1256,11 @@ transition: all 5s ease;
 
 @media (min-width: 1200px) {	/*_LG 	*/
 	.orcamento-style h1{
-		font-size: 3em;
+		font-size: 4em;
 	}
 
 	.orcamento-style h2{
-		font-size: 2.2em;
+		font-size: 3em;
 	}
 
 	.orcamento-style h1, .orcamento-style h2{
@@ -1384,11 +1390,11 @@ transition: all 5s ease;
 		width: 30%;
 		margin-left: 34%;
 	}
-    
+
     .serv-iframe-fix {
         width: 1138px;
     }
-        
+
     .modal-dialog {
         position: absolute;
         top: 50% !important;
@@ -1397,7 +1403,7 @@ transition: all 5s ease;
         -webkit-transform: translate(0, -50%) !important;
         margin: auto 26.35%;
     }
-    
+
     .stepwizard-step > p{
         font-size: .9em;
     }
@@ -1559,7 +1565,7 @@ transition: all 5s ease;
 		width: 30%;
 		margin-left: 34%;
 	}
-        
+
     .stepwizard-step > p{
         font-size: .8em;
     }
@@ -1663,7 +1669,7 @@ transition: all 5s ease;
 
 
 .formwebdesign input{
-    
+
 }
 
 .formwebcheckbox {
@@ -1742,8 +1748,8 @@ transition: all 5s ease;
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; }
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
 .bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
@@ -1783,9 +1789,10 @@ textarea {
 
 .orcamento-slice {
     display: block;
-    background: white;
+		padding-top:95px;
+		height: 400px;
     margin: 8px -15px;
-    box-shadow: 0px 0px 5px rgba(1,1,1,.1);
+    /*box-shadow: 0px 0px 5px rgba(1,1,1,.1);*/
 }
 
 .contact-numbers >h5,
@@ -1796,8 +1803,6 @@ textarea {
 .carousel-cloud {
     height: 350px;
 }
-
-
 
 .btn-social {
     border-radius: 0px;
